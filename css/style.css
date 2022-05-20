@@ -34,12 +34,6 @@ main {
     padding-right: 0.5em;
 }
 
-/* .navbar-brand a
-{
-    color: #fff;
-    font-size: 35px
-} */
-
 .navbar-nav li {
     padding: 0 10px;
 }
@@ -49,6 +43,19 @@ main {
     font-weight: 600;
     float: right;
     text-align: left;
+}
+
+.navbar-nav li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.1em;
+}
+
+.navbar-nav li a.nav-link-selected {
+    /* color: # !important; */
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.1em;
 }
 
 .fa-bars {
